@@ -44,12 +44,12 @@ public class TesteAnimais {
             }
 
             if (distBob==distRex) {
-                System.out.print("Oli\n");
+                System.out.print("Rex e Bob chegaram ao mesmo tempo, Oli conseguiu fugir\n");
             }else if (distBob>distRex) {
-                System.out.print("Rex\n");
+                System.out.print("Rex chegou primeiro\n");
 
             }else  {
-                System.out.println("Bob\n");
+                System.out.println("Bob chegou primeiro\n");
             }
         }
 
